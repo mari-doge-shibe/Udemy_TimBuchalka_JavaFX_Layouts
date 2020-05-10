@@ -1,0 +1,18 @@
+How to set up a JavaFX project on JDK11
+1. Create a project as JavaFX (JavaFX is the project containing the imported JavaFX libraries)
+2. Right-click on the project name and select Module Settings
+3. Make sure that the correct Project SDK is configured
+4. Go to Global Libraries
+5. Right-click JavaFX-11 and select Add to Modules
+6. Keep clicking OK and close the window
+7. Right-click the src folder and select New - module-info.java
+8. In module-info.java, write the following:
+    module Layouts {
+        requires javafx.fxml;
+        requires javafx.controls;
+
+        opens sample;
+    }
+9. Save the file
+Ready to go!
+
