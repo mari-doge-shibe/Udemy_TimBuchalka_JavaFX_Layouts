@@ -5,10 +5,11 @@
 
 <?import javafx.scene.layout.BorderPane?>
 <BorderPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" >
-
-    <HBox spacing="10">
-        <Button text="Okay" prefWidth="90"/>
-        <Button text="Cancel" prefWidth="90"/>
-        <Button text="Help" prefWidth="90"/>
-    </HBox>
+    <bottom>
+        <HBox spacing="10">
+            <Button text="Okay" prefWidth="90"/>
+            <Button text="Cancel" prefWidth="90"/>
+            <Button text="Help" prefWidth="90"/>
+        </HBox>
+    </bottom>
 </BorderPane>
