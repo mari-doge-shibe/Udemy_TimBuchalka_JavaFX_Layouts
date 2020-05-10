@@ -2,6 +2,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.control.Button?>
 <StackPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
+<!--    the last child will appear on the top-->
     <Label text="The label text" style="-fx-background-color: green"/>
     <Button text="Button One" style="-fx-background-color: red" />
     <Label text="The second label text" style="-fx-background-color: blue"/>
