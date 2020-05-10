@@ -13,9 +13,9 @@
         <Insets bottom="10" right="10"/>
     </padding>
 
-    <Button text="Okay" />
-    <Button text="Cancel" />
-    <Button text="Help" />
+    <Button text="Okay" prefWidth="90"/>
+    <Button text="Cancel" prefWidth="90"/>
+    <Button text="Help" prefWidth="90"/>
 
 
 </HBox>
