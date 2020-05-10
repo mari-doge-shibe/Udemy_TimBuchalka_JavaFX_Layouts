@@ -6,6 +6,11 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.HBox?>
 <HBox fx:controller="sample.Controller"
-      xmlns:fx="http://javafx.com/fxml" alignment="top_center">
+      xmlns:fx="http://javafx.com/fxml" alignment="top_center"
+        style="-fx-border-color: red; -fx-border-width: 3; -fx-border-style: dashed">
+    <Button text="Okay" />
+    <Button text="Cancel" />
+    <Button text="Help" />
+
 
 </HBox>
